@@ -1,0 +1,41 @@
+.title {
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &_left {
+        color: #ffffff;
+        font-size: 36px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title_left {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .title_left {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title_left {
+        font-size: 23px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .title_left {
+        width: auto;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
